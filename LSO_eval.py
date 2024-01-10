@@ -97,7 +97,7 @@ def evaluate_pmlb_lso(
         model.to(params.device)
         batch_results = defaultdict(list)
         all_datasets = pd.read_csv(
-            "./dataset/pmlb/pmlb/all_summary_stats.tsv",
+            "./datasets/pmlb/pmlb/all_summary_stats.tsv",
             sep="\t",)
         regression_datasets = all_datasets[all_datasets["task"] == "regression"]
         regression_datasets = regression_datasets[
@@ -109,10 +109,10 @@ def evaluate_pmlb_lso(
             problems = problems.loc[problems['n_features']<11]
         problem_names = problems["dataset"].values.tolist()
         
-        pmlb_path = "./dataset/pmlb/datasets/"  # high_dim_datasets
+        pmlb_path = "./datasets/pmlb/datasets/"  # high_dim_datasets
 
         feynman_problems = pd.read_csv(
-            "./dataset/feynman/FeynmanEquations.csv",
+            "./datasets/feynman/FeynmanEquations.csv",
             delimiter=",",)
         feynman_problems = feynman_problems[["Filename", "Formula"]].dropna().values
         feynman_formulas = {}
