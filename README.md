@@ -13,9 +13,9 @@ There are two main steps to using SNIP for Symbolic Regression:
 
 
 <p align="center">
-<img src="./images/SNIP-Symbolic-Regression.png" width="70%" /> 
+<img src="./images/SNIP-Symbolic-Regression.png" width="80%" /> 
  <br>
-<b>Using SNIP Numeric Encoder for Symbolic Regression. (a) For training, we add a decoder module to generate expressions to the SNIP numeric encoder; (b) For inference, we optimize decoded expressions in SNIP's latent space.</b>
+<b>Using SNIP Numeric Encoder for Symbolic Regression.</b>
 </p>
 
 
