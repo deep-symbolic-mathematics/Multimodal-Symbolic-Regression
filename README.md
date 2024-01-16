@@ -86,6 +86,16 @@ python LSO_eval.py --reload_model ./weights/snip-e2e-sr.pth \
 Here, LSO is performed on the representations of the pretrained model `./weights/snip-e2e-sr.pth`. To test LSO on other data groups, you can simply change `--pmlb_data_type` parameter to `feynman` or `blackbox`. LSO algorithm is designed with the [GWO](https://www.sciencedirect.com/science/article/abs/pii/S0965997813001853) optimizer by default. However, if you're interested, you can also try other gradient-free optimizers from the **[nevergrad](https://github.com/facebookresearch/nevergrad)** library by just changing the `--lso_optimizer` parameter. 
 
 
+## Citation
+If you find the paper or the repo helpful, please cite it with
+<pre>
+@article{meidani2023snip,
+  title={SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training},
+  author={Meidani, Kazem and Shojaee, Parshin and Reddy, Chandan K and Farimani, Amir Barati},
+  journal={arXiv preprint arXiv:2310.02227},
+  year={2023}
+}
+</pre>
 
 
 ## License 
