@@ -1,4 +1,4 @@
-# Deep Symbolic Regression with Multimodal Pretraining & Latent Space Optimization
+# Deep Symbolic Regression with Multi-modal Pretraining & Latent Space Optimization
 
 Official Implementation of **Using SNIP for Symbolic Regression** in the paper [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training](https://arxiv.org/abs/2310.02227). 
 
