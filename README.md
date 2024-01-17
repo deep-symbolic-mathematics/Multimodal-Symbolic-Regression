@@ -1,6 +1,6 @@
 # Deep Symbolic Regression with Multi-modal Pretraining & Latent Space Optimization
 
-Official Implementation of **Using SNIP for Symbolic Regression** in the paper [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training](https://arxiv.org/abs/2310.02227) (**ICLR 2024 Spotlight**). 
+Official Implementation of Using SNIP for Symbolic Regression in the paper [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training](https://arxiv.org/abs/2310.02227) (**ICLR 2024 Spotlight**). 
 
 
 ## Overview
@@ -43,10 +43,8 @@ python train.py --reload_model_snipenc ./weights/snip-10dmax.pth \
                 --batch_size 128 \
                 --dump_path ./dump \
                 --max_input_dimension 10 \
-                --n_steps_per_epoch 1000 \
-                --max_epoch 100000 \
                 --exp_name snipe2e \
-                --exp_id run-test \
+                --exp_id run-train \
                 --lr 4e-5 \
                 --latent_dim 512 \
                 --save_periodic 10
