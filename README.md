@@ -20,7 +20,7 @@ There are two main steps to using SNIP for Symbolic Regression:
 
 
 ## Installation
-Follow the installation steps from the SNIP repository **[Multimodal-Math-Pretraining](https://github.com/deep-symbolic-mathematics/Multimodal-Symbolic-Regression)**. To install, use:
+Follow the installation steps from the SNIP repository **[Multimodal-Math-Pretraining](https://github.com/deep-symbolic-mathematics/Multimodal-Math-Pretraining)**. To install, use:
 ```
 conda env create -f environment.yml
 ```
@@ -32,7 +32,7 @@ Note: Requires `python>3.7`.
 To train your model for Symbolic Regression using the SNIP Numeric Encoder, follow these steps:
 
 Download the required model weights:
-* **SNIP Weights:** Get them from [here](https://drive.usercontent.google.com/download?id=1Q3g6rzqkguHt0krolOKGh4OA5f3JwZLe&export=download&authuser=0&confirm=t&uuid=8de0d6d8-00b5-4820-9ca4-1132d655f02f&at=APZUnTU8MZN1sqlewgAWqVSS00O1:1704728992176)
+* **SNIP Weights:** Get them from [here](https://drive.google.com/file/d/1jfkQdTvGibGwVqWHVIjQ_fxyBtV4EcoY/view?usp=share_link)
 * **E2E Weights:** Available [here](https://dl.fbaipublicfiles.com/symbolicregression/model1.pt)
 
 Place both in the `weights/` directory of the project. Then, run the following command to start training.
@@ -54,7 +54,7 @@ This command includes various parameters to customize your training, like batch 
 
 
 ## Encoder-Decoder Model
-Download the Encoder-Decoder Symbolic Regression model weights **[here](https://drive.google.com/drive/folders/1eUGm3l7bFpwV10sx7Y-_u-OoyHF5ZAOa?usp=sharing)**. Save it in `weights/snip-e2e-sr.pth`. To use this model, simply activate the `--reload_model` parameter with the model path.
+Download the Encoder-Decoder Symbolic Regression model weights **[here](https://drive.google.com/drive/folders/1YAQSpZnuEFJa1osBGrcGTsEmir6zjwUd?usp=share_link)**. Save it in `weights/snip-e2e-sr.pth`. To use this model, simply activate the `--reload_model` parameter with the model path.
 
 
 ## SR Benchmark Datasets
