@@ -54,7 +54,7 @@ This command includes various parameters to customize your training, like batch 
 
 
 ## Encoder-Decoder Model
-Download the Encoder-Decoder Symbolic Regression model weights **[here](https://drive.google.com/drive/folders/1YAQSpZnuEFJa1osBGrcGTsEmir6zjwUd?usp=share_link)**. Save it in `weights/snip-e2e-sr.pth`. To use this model, simply activate the `--reload_model` parameter with the model path.
+Download the **Encoder-Decoder Symbolic Regression model weights** **[here](https://drive.google.com/drive/folders/1YAQSpZnuEFJa1osBGrcGTsEmir6zjwUd?usp=share_link)**. Save it in `weights/snip-e2e-sr.pth`. To use this model, simply activate the `--reload_model` parameter with the model path.
 
 
 ## SR Benchmark Datasets
