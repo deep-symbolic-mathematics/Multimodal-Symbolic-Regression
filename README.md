@@ -84,7 +84,7 @@ python LSO_eval.py --reload_model ./weights/snip-e2e-sr.pth \
 Here, LSO is performed on the representations of the pretrained model `./weights/snip-e2e-sr.pth`. To test LSO on other data groups, you can simply change `--pmlb_data_type` parameter to `feynman` or `blackbox`. LSO algorithm is designed with the [GWO](https://www.sciencedirect.com/science/article/abs/pii/S0965997813001853) optimizer by default. However, if you're interested, you can also try other gradient-free optimizers from the **[nevergrad](https://github.com/facebookresearch/nevergrad)** library by just changing the `--lso_optimizer` parameter. 
 
 
-### Final Results on SRBench 
+## Final Results on SRBench 
 Our experimental results of SNIP on SRBench datasets for symbolic regression are provided in the [srbench_results/](https://github.com/deep-symbolic-mathematics/Multimodal-Symbolic-Regression/tree/main/srbench_results) directory. These results are shared to help the research community reproduce our paper's findings and serve as reference benchmarks. Each result file contains detailed performance metrics and experimental configurations used in our evaluations.
 
 
